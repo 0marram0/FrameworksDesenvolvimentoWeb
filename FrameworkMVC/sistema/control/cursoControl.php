@@ -23,8 +23,8 @@ class CursoControl {
           $this->dao->excluir($_REQUEST["id"]);
           break;
           case 4:
-            $obj=$this->dao->buscarPorId($_REQUEST["id]);
-            require_once("../view/form_curso.php;
+            $obj=$this->dao->buscarPorId($_REQUEST["id"]);
+            require_once("../view/form_curso.php");
             break;
       }
    }

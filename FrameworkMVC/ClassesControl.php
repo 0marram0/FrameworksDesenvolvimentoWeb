@@ -47,8 +47,8 @@ private $entidades;
                           \$this->dao->excluir(\$_REQUEST["id"]);
                           break;
                           case 4:
-                            \$obj=\$this->dao->buscarPorId(\$_REQUEST["id]);
-                            require_once("../view/form_{$entidade}.php;
+                            \$obj=\$this->dao->buscarPorId(\$_REQUEST["id"]);
+                            require_once("../view/form_{$entidade}.php");
                             break;
                       }
                    }
